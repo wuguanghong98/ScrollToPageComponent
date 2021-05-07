@@ -11,11 +11,6 @@
       </div>
     </section>
     <ul class="section-btn">
-      <!--<li class="on"></li>-->
-      <!--<li></li>-->
-      <!--<li></li>-->
-      <!--<li></li>-->
-      <!--<li></li>-->
       <li v-for="(i,index) in btnNum"
           :key="index"
           :class="{on: currentIndex == index}"
